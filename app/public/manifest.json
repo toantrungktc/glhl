@@ -1,0 +1,17 @@
+{
+    "name": "Quản Lý GLHL",
+    "short_name": "GLHL",
+    "start_url": "/index.php",
+    "background_color": "#007BFF",
+    "description": "QUản lý Gia Liệu Hương liệu",
+    "display": "fullscreen",
+    "theme_color": "#007BFF",
+    "icons": [
+        {
+            "src": "logo.PNG",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ]
+}

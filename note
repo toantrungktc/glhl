@@ -1,0 +1,10 @@
+
+chay lệnh 
+
+docker-compose up 
+
+phân quyền cho thư mục storage và public
+
+sudo chmod -R 777 storage
+
+sudo chmod -R 777 public

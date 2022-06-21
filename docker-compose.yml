@@ -1,0 +1,16 @@
+version: '3'
+services:
+    web:
+        image: nginx:latest
+        ports:
+            - "8084:80"
+        volumes:
+            - ./nginx.conf:/etc/nginx/conf.d/nginx.conf
+            - ./app:/var/www
+    php:
+        build:
+            context: .
+            dockerfile: PHP.Dockerfile
+        container_name: glhl_wsl
+        volumes:
+            - ./app:/var/www
